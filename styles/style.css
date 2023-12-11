@@ -251,6 +251,7 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #fff;
+  display: block;
 }
 
 .content__card-link:focus {
@@ -259,7 +260,7 @@ ol {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 1px;
+  outline-offset: -1px;
 }
 
 .content__card-link_current {
