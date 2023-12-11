@@ -53,8 +53,8 @@ ol {
 .button {
   cursor: pointer;
   background-color: transparent;
-  border: 1px solid #FFF;
-  color: #FFF;
+  border: 1px solid #fff;
+  color: #fff;
   text-align: center;
   font-size: 18px;
   font-style: normal;
@@ -70,7 +70,7 @@ ol {
 }
 
 .button:focus-visible {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
@@ -136,14 +136,14 @@ ol {
 }
 
 .search-form__label:has(:focus-visible) {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
 .search-form__pseudo-checkbox {
   inline-size: 19px;
   block-size: 19px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
 }
 
 .search-form__pseudo-checkbox:hover {
@@ -151,16 +151,16 @@ ol {
 }
 
 .search-form__pseudo-checkbox:focus {
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   outline-offset: 1px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
-  content: "";
+  content: '';
   display: block;
   inline-size: 15px;
   block-size: 15px;
-  background-color: #FFF;
+  background-color: #fff;
   position: relative;
   inset: 0;
   margin: 1px;
@@ -187,14 +187,14 @@ ol {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  color: rgba(255, 255, 255, 0.70);
+  color: rgb(255 255 255 / 0.7);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   background-color: transparent;
-  border-top: 1px solid #FFF;
-  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
   border-left: none;
   border-right: none;
   inline-size: 271px;
@@ -202,7 +202,7 @@ ol {
 }
 
 .search-form__textfield:active {
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   outline-offset: 2px;
 }
 
@@ -235,15 +235,12 @@ ol {
 }
 
 .content__list {
-  position: relative;
-}
-
-.content__list {
   block-size: 290px;
   overflow: hidden scroll;
   gap: 30px;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .content__list::-webkit-scrollbar {
@@ -291,7 +288,7 @@ ol {
 }
 
 .content__video-card:focus-visible {
-  outline: 1px solid #FFF;
+  outline: 1px solid #fff;
   outline-offset: 1px;
 }
 
@@ -301,7 +298,7 @@ ol {
 }
 
 .content__video-card-title {
-  color: #FFF;
+  color: #fff;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-style: normal;
@@ -312,8 +309,10 @@ ol {
 }
 
 .content__video-card-description {
-  color: #FFF;
-  font-family: Fira Sans Condensed, sans-serif;
+  color: #fff;
+  font-family:
+    "Fira Sans sans-serif",
+    sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
